@@ -1,60 +1,118 @@
+body {
 
-body{
     margin: 0px;
-}
-.bg_sticky{
+    padding: 0px;
+    box-sizing: border-box;
 
-    background-image: url(resorces/image1.png);
-    text-align: center;
-    
-    height: 600px;
+}
+
+header {
+    background-image: url(resorces/laptop-1483974_1280.jpg);
+    height: 500px;
     background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-#bg_dark{
-    background-color: rgba(34, 33, 33, 0.541);
-    color: whitesmoke;
-}
-#img0{
-    background-image: url(resorces/image1.png);
-}
-#img1{
-    background-image: url(resorces/image2.jpg);
-    background-size: cover;
-}
-#img2{
-    background-image: url(resorces/image3.jpg);
-    background-size: cover;
+    margin-bottom: -23px;
+
 }
 
-#img3{
-    background-image: url(resorces/image1.png);
+#largeText {
+
+    font-size: 150px;
+    color: rgb(216, 64, 64);
 }
-.bg_sticky h1{
-    vertical-align: middle;
-    margin-top: 280px;
-   
-    background-color: rgba(61, 58, 58, 0.747);
-    display: inline-block;
-    border-radius: 5px;
+
+h1.title {
+    margin-top: 0px;
+}
+
+.title {
+    padding-top: 180px;
+    color: rgb(238, 30, 221);
+    text-align: center;
+}
+
+.sec2 {
+    background-color: rgb(29, 28, 28);
+    height: 200px;
+    text-align: center;
+    margin-top: -25px;
+}
+
+.title2 {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 50px;
     color: azure;
 }
-.text_area{
-    background-color: antiquewhite;
+
+#card-area {
     text-align: center;
-    color: rgba(81, 81, 202, 0.788);
-    padding: 10px 50px;
+    padding: 20px 30px;
+    background-color: aqua;
+}
+
+.card {
+    display: inline-block;
+    width: 220px;
+    margin-left: 30px;
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    box-shadow: rebeccapurple 2px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.671);
+}
+
+.bg-img {
+    background-image: url(resorces/bed-1979270_1280.jpg);
+    height: 200px;
+    width: 220px;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+#img2 {
+    background-image: url(resorces/student-849822_1280.jpg);
+}
+
+#img3 {
+    background-image: url(resorces/despaired-2261021_1280.jpg);
+}
+
+.card p {
     text-align: justify;
+    padding: 5px;
 }
-.text_area h2{
+
+.sec3 {
     text-align: center;
-    
 }
-.self_dec{
+
+.side-view {
+    width: 49.99%;
+    display: inline-block;
+    margin-left: -4px;
+}
+
+#colorl {
+    background-color: blueviolet;
+    margin-left: 0px;
+}
+
+#colorr {
+    background-color: aqua;
+
+}
+
+footer {
+    margin-top: -22px;
     background-color: black;
-    color: whitesmoke;
     text-align: center;
-    margin: -20px;
-    padding: 0px;
+    margin-bottom: -27px;
+
+}
+
+footer h2 {
+    color: blue;
 }
